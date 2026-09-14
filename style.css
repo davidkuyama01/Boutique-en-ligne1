@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header,section {
+    padding: 1rem 4rem 1rem 4rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img {
+    max-width: 70px;
+    width: 100%;
+    border-radius: 50%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+
+}
